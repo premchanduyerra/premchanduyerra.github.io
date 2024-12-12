@@ -1,27 +1,87 @@
-<html>
-  <body>
-    <script>
-    window.location="https://portfolio-1c657.web.app/"
-    </script>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <li><a href="#gallery">My Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Welcome to My Portfolio</h1>
+            <p>
+                Hi there! I'm YERRA PREM CHANDU, a passionate developer who loves building scalable and user-friendly applications.
+                Whether it's designing sleek user interfaces or creating powerful backend solutions, I strive to bridge the gap 
+                between technology and people. 
+            </p>
+            <!-- <p>
+                Scroll down to explore my projects, skills, and journey, and lets connect to create something extraordinary!
+            </p> -->
+        </section>
+        
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I'm a Full Stack Developer with over 3 years of experience, specializing in React.js, Spring Boot, and microservices.
+                My journey in technology started with a curiosity to understand how applications work, and over the years, I've honed 
+                my skills to create seamless and scalable solutions. I've worked on projects ranging from government portals to 
+                personalized diet plans, always aiming to improve user experience and system performance.
+            </p>
+            <p>
+                Beyond work, I enjoy playing volleyball, reading self-help books, and exploring new technologies. My goal is to 
+                contribute to impactful projects that solve real-world problems while continuously learning and growing as a developer.
+            </p>
+            <ul>
+                <li><strong>Location:</strong> Neelojipally, Boinpally, Telangana</li>
+                <li><strong>Email:</strong> premchandu.yerra@gmail.com</li>
+                <li><strong>Phone:</strong> +91 9502127621</li>
+            </ul>
+        </section>
+        
+        
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>
+                I'm always open to discussing innovative projects, software development challenges, or full-stack development opportunities. 
+                Feel free to reach out via email or phone, or use the form below to send me a message!
+            </p>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <p id="acknowledgement" style="display: none; color: green;">Thank you! Your message has been sent successfully.</p>
+        </section>
+        
+        <section id="gallery">
+            <h2>My Gallery</h2>
+            <p>Explore my journey through snapshots of my projects, hobbies, and certifications.</p>
+            <div class="grid">
+                <img src="images/certificate1.jpg" alt="certificate 1">
+                <img src="images/certificate2.png" alt=" certificate 2 ">
+                <img src="images/certificate3.svg" alt="certificate 3">
+             </div>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
